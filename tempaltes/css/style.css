@@ -1,0 +1,39 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{text-decoration: none;	}
+li{list-style-type:none;}
+body{background: #191919;}
+:root {--fontSizeH1: 95px;}
+@font-face {
+font-family: 'Open Sans';
+src: url("../fonts/OpenSans-Bold.woff2"), url("../fonts/OpenSans-Bold.woff");
+font-weight: normal;
+font-style: normal;
+}
+
+
+.wrapper{
+	background-color: aliceblue;
+	width: 810px;
+	height: 810px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box{
+	background-color: rgb(22, 122, 209);
+	width: 90px;
+	height: 90px;
+	border: 1px solid red;
+}
+
+.s_:hover {
+
+	width: 88px;
+	height: 88px;
+	border: 1px solid rgb(0, 255, 106);
+}
